@@ -1,0 +1,22 @@
+:root {
+  color: #3a8bcd;
+}
+
+.auth {
+  display: flex;
+  padding: 0.8rem;
+  gap: 1rem;
+}
+.login button {
+}
+.register p,
+.login button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 0.3rem 1rem;
+  color: #ffffff;
+}
+.register p:hover,
+.login button:hover {
+  border: 1px white dashed;
+}
